@@ -24,7 +24,7 @@ module StrMasker
     #   Default usage:
     #     mask_string("secret") #=> "******"
     #
-    # : (String?, ?from: Integer, ?to: Integer) -> String?
+    #: (String?, ?from: Integer, ?to: Integer, ?char: String) -> String?
     def mask_string(val, from: 0, to: -1, char: '*')
       raise ArgumentError, '"from" must be a non-negative int' unless from.is_a?(Integer) && from >= 0
       raise ArgumentError, '"to" must be a negative int' unless to.is_a?(Integer) && to < 0

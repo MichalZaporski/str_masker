@@ -3,3 +3,6 @@ inherit_gem:
 
 Bundler/GemComment:
   Enabled: false
+
+Layout/LeadingCommentSpace:
+  Enabled: false
