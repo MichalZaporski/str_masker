@@ -11,7 +11,7 @@ module StrMasker
     # @param val: The string to mask
     # @param from: Starting position for masking (inclusive, default: 0)
     # @param to: Ending position for masking (must be negative, default: -1)
-    # @param char [String] The character to use for masking (default: '*')
+    # @param char: The character to use for masking (default: '*')
     # @return The masked string or nil if input is nil
     #
     # Example:
